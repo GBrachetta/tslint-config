@@ -1,0 +1,69 @@
+{
+  "name": "@gbrachetta/tslint-config",
+  "version": "0.0.1",
+  "description": "Thorough TSLint configuration for React-based projects based on airbnb and Prettier configs with many additional rules such as autofixable sorting, etc.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write **/*.js",
+    "lint": "eslint ./ --ignore-path .gitignore",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "airbnb-config",
+    "prettier-config",
+    "react",
+    "hooks",
+    "react-hooks",
+    "gbrachetta",
+    "guillermo brachetta",
+    "tslint"
+  ],
+  "author": "Guillermo Brachetta",
+  "license": "MIT",
+  "prettier": "@gbrachetta/prettier-config",
+  "dependencies": {
+    "@gbrachetta/prettier-config": "^1.1.0",
+    "eslint": "^8.19.0",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort": "^2.4.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort": "^2.4.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbrachetta/tslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gbrachetta/tslint-config/issues"
+  },
+  "homepage": "https://github.com/gbrachetta/tslint-config#readme"
+}
